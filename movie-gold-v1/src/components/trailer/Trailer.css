@@ -1,0 +1,8 @@
+.react-player-container {
+  width: 100%;
+  height: 80vh;   /* or something big enough */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
