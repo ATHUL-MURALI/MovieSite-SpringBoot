@@ -43,6 +43,7 @@ function App() {
     getMovies();
   }, [])
 
+  console.log(reviews);
 
 
   return (

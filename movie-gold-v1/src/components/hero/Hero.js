@@ -16,9 +16,8 @@ const Hero = ({ movies }) => {
             <Carousel>
                 {
                     movies?.map((movie) => {
-                        console.log("Movie object:", movie);
                         return (
-                            <Paper>
+                            <Paper key={movie.imdbId}>
                                 <div className='movie-card-container'>
                                     <div className='movie-card' style={{ "--img": `url(${movie.backdrop || movie.poster || ''})` }}>
                                         <div className='movie-details'>
